@@ -34,6 +34,6 @@ for file_path in data_dir.glob("products_*.json"):
     with open(file_path, "w", encoding="utf-8") as file:
         json.dump(products, file, ensure_ascii=False, indent=2)
 
-    print(f"Da chuan hoa: {file_path}")
+    print(f"Đã chuẩn hóa description: {file_path}")
 
-print("Hoan thanh chuan hoa description!")
+print("Hoàn thành chuẩn hóa  description!")
