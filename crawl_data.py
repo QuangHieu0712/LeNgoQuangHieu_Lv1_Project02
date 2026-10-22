@@ -39,7 +39,7 @@ for product_id in product_ids:
 
     request = urllib.request.Request(
         url,
-        headers={"User-Agent": "Mozilla/5.0"}
+        headers={"User-Agent": "Google"}
     )
 
     try:
